@@ -73,7 +73,7 @@ const validateUser = async (username, password) => {
 };
 
 const getToken = (data) => {
-  return jsonwebtoken.sign(data, secret, { expiresIn: "10m" });
+  return jsonwebtoken.sign(data, secret, { expiresIn: "60m" });
 };
 
 const trimUser = (user) => {

@@ -1,7 +1,9 @@
 require("dotenv-safe").config();
 const express = require("express");
 const app = express();
+
 const { PORT } = require("./constants");
+
 require("./config/db");
 
 app.use(express.json());
