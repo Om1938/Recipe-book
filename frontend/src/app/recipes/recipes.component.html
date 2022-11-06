@@ -1,0 +1,20 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="card recipes">
+        <div class="card recipe" *ngFor="let recipe of recipes">
+            <div>{{recipe.name}}</div>
+            <div>
+                {{recipe.description}}
+            </div>
+            <div class="ingredients">
+                <span class="ingredient" *ngFor="let ingredient of recipe.ingredients">
+                    {{ingredient}}
+                </span>
+            </div>
+            <div class="category">
+                {{recipe.category}}
+            </div>
+        </div>
+    </div>
+
+</div>

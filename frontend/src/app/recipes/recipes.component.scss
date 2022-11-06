@@ -1,0 +1,23 @@
+.recipes {
+  margin-top: 70px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.recipe {
+  padding: 20px;
+  width: 33%;
+}
+.ingredients {
+  display: flex;
+  gap: 5px;
+  .ingredient {
+    border: 1px solid black;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+  }
+}
